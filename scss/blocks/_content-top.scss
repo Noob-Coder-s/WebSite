@@ -1,0 +1,78 @@
+// Верхняя часть контента
+.content_top {
+    padding-top: 300px;
+    column-gap: 100px;
+}
+
+.content_top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: animation 2.5s forwards;
+}
+
+.content_top-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content_top-title {
+    font-family: $font-CasPL;
+    color: $text-gray-dark;
+    font-size: 50px;
+}
+
+.content_top-title2 {
+    font-family: $font-Roboto-r;
+    color: $text-gray-dark;
+    padding-top: 50px;
+    width: 580px;
+}
+
+
+// Круг с банерами
+.content_top-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 500px;
+    background-color: $button-yellow;
+    border-radius: 250px;
+}
+
+.ban_all {
+    font-family: $font-Cas-b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 180px;
+    border-radius: 15px;
+    column-gap: 100px;
+}
+
+.ban1 {
+    background-color: $button-orange;
+    color: $text-gray-dark;
+    margin-left: 320px;
+}
+.ban2 {
+    background-color: $button-blue;
+    color: $text-white;
+    margin-left: 100px;
+}
+.ban3 {
+    background-color: $button-gray;
+    color: $text-gray-dark;
+    margin-right: 100px;
+}
+.ban4 {
+    background-color: $button-gray-d;
+    color: $text-gray-dark;
+    margin-right: 320px;
+}

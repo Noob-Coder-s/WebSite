@@ -1,0 +1,105 @@
+.content_reviews {
+    height: 840px;
+}
+
+.content_reviews-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.content_reviews-title {
+    font-family: $font-CasPL;
+    color: $text-gray-dark;
+    font-size: 60px;
+    width: 500px;
+}
+
+.content_reviews-arrows {
+    display: flex;
+    margin-top: 50px;
+    column-gap: 30px;
+}
+
+.content_reviews-arrows-l {
+    display: flex;
+    background-color: $button-blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_reviews-arrows-r {
+    display: flex;
+    background-color: $button-blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_reviews-card-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 545px;
+    overflow-x: hidden;
+ /*   -webkit-mask: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0) 100%
+      ); */
+
+}
+
+.content_rev-cont {
+    display: flex;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.content_reviews-card-block {
+    padding: 10px;
+}
+
+.content_reviews-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 525px;
+    width: 380px;
+    background-color: $button-yellow;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+
+}
+
+.content_reviews-card-photo {
+    margin-top: 50px;
+    height: 243px;
+    width: 243px;
+    background-color: $button-yellow-dark;
+    border-radius: 121px;
+    border-color: $text-white;
+    border: 5px solid $text-white;
+    overflow: hidden;
+
+}
+
+.content_reviews-card-name {
+    margin-top: 30px;
+    font-family: $font-Roboto-r;
+    font-size: 20px;
+    color: $text-gray-dark;
+}
+
+.content_reviews-card-rev {
+    max-width: 280px;
+    margin-top: 30px;
+    color: $text-gray-dark;
+}

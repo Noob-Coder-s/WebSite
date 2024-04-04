@@ -1,0 +1,49 @@
+//Текст
+.header_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-Cas-b;
+    font-size: 100px;
+    color: $text-blue;
+}
+
+.header_title2 {
+    font-family: $font-Roboto-r;
+    font-size: 30px;
+    color: $text-gray-dark;
+}
+
+.header_buttons {
+    display: flex;
+    column-gap: 30px;
+    padding-top: 30px;
+}
+
+.icon {
+    margin-left: 30px;
+}
+
+.circle {
+    display: flex;
+    height: 462px;
+    width: 462px;
+    background-color: $button-yellow;
+    border-radius: 230px;
+}
+
+.header_center_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.man1 {
+    height: 525px;
+    margin-top: 80px;
+    margin-left: 50px;
+}

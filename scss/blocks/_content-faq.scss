@@ -1,0 +1,59 @@
+//faq
+.content_faq {
+    padding-top: 150px;
+    display: flex;
+    animation: animation 2.5s forwards;
+}
+
+.content_faq-menu {
+    display: flex;
+    background-color: $button-blue;
+    height: auto;
+    border-radius: 15px;
+    padding: 75px;
+    column-gap: 90px;
+}
+
+.content_faq-title {
+    font-family: $font-CasPL;
+    color: $text-white;
+    font-size: 70px;
+}
+
+//выдвижной faq
+/*
+    transition: all 0.2s ease-in;
+    &:hover {
+        background-color: $button-blue-s;
+    }
+*/
+.content_faq-title-slide {
+    width: 780px;
+}
+
+#faq-slide-1, #faq-slide-2, #faq-slide-3,
+#faq-slide-4, #faq-slide-5, #faq-slide-6,
+#faq-slide-7 {
+    font-family: $font-Cas-b;
+    color: $text-white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#faq-slide-swipe-1, #faq-slide-swipe-2, #faq-slide-swipe-3,
+#faq-slide-swipe-4, #faq-slide-swipe-5, #faq-slide-swipe-6,
+#faq-slide-swipe-7 {
+    display: none;
+    padding-top: 30px;
+    font-family: $font-Roboto-r;
+    font-size: 15px;
+
+}
+
+.faq-slide-swipe-hr {
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid $text-white; 
+}

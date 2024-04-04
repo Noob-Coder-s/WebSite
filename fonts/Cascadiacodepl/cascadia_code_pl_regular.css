@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Cascadia Code PL Regular';
+	src: url('../fonts/cascadia_code_pl_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/cascadia_code_pl_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/cascadia_code_pl_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/cascadia_code_pl_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/cascadia_code_pl_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/cascadia_code_pl_regular.svg#cascadia_code_pl_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

@@ -1,0 +1,44 @@
+//Функции для простоты на скорую руку, выдвижная панель с текстом в разделе FAQ
+//Реализовал по идентификаторам
+$(document).ready(function(){
+    $('#faq-slide-1').click(function(event){
+        $('#faq-slide-swipe-1').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-2').click(function(event){
+        $('#faq-slide-swipe-2').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-3').click(function(event){
+        $('#faq-slide-swipe-3').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-4').click(function(event){
+        $('#faq-slide-swipe-4').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-5').click(function(event){
+        $('#faq-slide-swipe-5').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-6').click(function(event){
+        $('#faq-slide-swipe-6').slideToggle("slow");
+        event.preventDefault();
+    });
+});
+$(document).ready(function(){
+    $('#faq-slide-7').click(function(event){
+        $('#faq-slide-swipe-7').slideToggle("slow");
+        event.preventDefault();
+    });
+});

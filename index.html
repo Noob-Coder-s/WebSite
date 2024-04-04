@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoobCoders</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+            integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        
+<!--Верх лого и кнопки-->
+        <div class="header_top">
+            <div class="container">
+                <div class="header_top_r">
+                    <a class="logo" href="#!">
+                        <img src="./img/logo.svg" alt="NoobCoders">
+                    </a>
+                    <div class="buttons_top">
+                        <a href="#!" class="button-b">ПОДПИСАТЬСЯ</a>
+                        <a href="#!" class="button-g">ЗАДОНАТИТЬ</a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Верх лого и кнопки конец-->
+
+<!--Верх Центральная часть текст и картинки-->
+        <div class="header_center">
+            <div class="container">
+                <div class="header_center_container">
+
+                    <!--Текст и кнопки-->
+                    <div class="header_text">
+                        <div class="header_title">NoobCoders</div>
+                        <div class="header_title2">открытый проект 
+                                <br>для бесплатного обучения 
+                                <br>программированию с нуля
+                        </div>
+                        <div class="header_buttons">
+                            <a href="https://www.youtube.com/channel/UCOnwN8Y6H22XoxYk4YT3s4w/featured" target="_blank" class="button-o">ВИДЕОУРОКИ
+                                <img class="icon" src="./img/buttons/youtube.svg" alt="Youtobe Уроки">
+                            </a>
+                            <a href="https://stepik.org/course/113539/promo" target="_blank" class="button-b">ЗАДАНИЯ
+                                <img class="icon" src="./img/buttons/Step.svg" alt="Задания">
+                            </a>
+                            <a href="https://t.me/NoobCodersPikabu" target="_blank" class="button-b">ЧАТ
+                                <img class="icon" src="./img/buttons/telegram.svg" alt="Чат">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Текст и кнопки конец-->
+
+                    <!--круг с человеком-->
+                    <div class="circle">
+                        <img class="man1" src="./img/man-h.png" alt="NoobCoders">
+                    </div>
+                    <!--круг с человеком конец-->
+
+                </div>
+            </div>
+        </div>
+    </header>
+<!--Верх Центральная часть текст и картинки конец-->
+<!--Центр контент-->
+<content>
+
+    <!--контент верхняя часть-->
+    <div class="content_top">
+        <div class="container">
+            <div class="content_top-container">
+                <div class="content_top-text">
+                    <div class="content_top-title">Что такое<br>NoobCoders?</div>
+                    <div class="content_top-title2">
+                        <p>
+                            NoobCoders — образовательный проект, 
+                            призванный познакомить людей с основами программирования на примере работы с языком C#.
+                            Наши уроки будут полезны и интересны для всех желающих начать изучать языки программирования,
+                            независимо от пола и возраста. Мы глубоко убеждены в том, что знания должны быть общедоступны,
+                            поэтому все наши уроки абсолютно бесплатны.
+                        </p>
+                        <br>
+                        <p>
+                            Обучение происходит в удобном видеоформате на платформах Youtube и ЯндексДзен,
+                            а для закрепления пройденного материала используются интересные
+                            и разнообразные задания на образовательном ресурсе Stepik. 
+                        </p>
+                        <br>
+                        <p>
+                            Благодаря активной поддержке нашего проекта сообществом опытных программистов,
+                            вы всегда можете получить ответы на любые вопросы по обучению и сопутствующим
+                            темам в нашем уютном чате в Telegram или задав вопрос под соответствующим заданием.
+                        </p>
+                        <br>
+                        <p>
+                            Присоединяйтесь и приступайте к обучению, будет здорово!
+                        </p>
+                    </div>
+                </div>
+                <div class="content_top-circle"> 
+                    <div class="ban_all ban1">
+                        <p>Готов<br>к поиску<br>работы!</p>
+                    </div>
+                    <div class="ban_all ban2">
+                        <p>Задания<br>Stepik</p>
+                    </div>
+                    <div class="ban_all ban3">
+                        <p>Видеоуроки<br>на YouTobe</p>
+                    </div>
+                    <div class="ban_all ban4">
+                        <p>Начинающий<br>Программист</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--контент верхняя часть конец-->
+
+    <!--контент faq-->
+    <div class="content_faq">
+        <div class="container">
+            <div class="content_faq-menu">
+                <div class="content_faq-title">FAQ</div>
+                <div class="content_faq-title-slide">
+                    <!--faq слайдеры  Торопился забыл про стрелки-->
+
+                    <div id="faq-slide-1"><p>Кому будет полезен данный проект?</p>
+                        <div id="faq-slide-swipe-1">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                            
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div>
+                    </div>
+
+                    <div id="faq-slide-2">Какие есть варианты оплаты за обучение?
+                        <div id="faq-slide-swipe-2">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+
+                    <div id="faq-slide-3">Что входит в образовательную программу?
+                        <div id="faq-slide-swipe-3">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+
+                    <div id="faq-slide-4">В каком формате происходит обучение?
+                        <div id="faq-slide-swipe-4">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+
+                    <div id="faq-slide-5">Что необходимо для того чтобы начать учиться?
+                        <div id="faq-slide-swipe-5">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+
+                    <div id="faq-slide-6">Сейчас существует множество курсов, обещающих выучить<br> на программиста. Почему же стоит выбрать именно этот?
+                        <div id="faq-slide-swipe-6">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+
+                    <div id="faq-slide-7">Я прошел интересующую меня программу обучения проекта<br> NoobCoders. Что мне делать дальше?
+
+                        <div id="faq-slide-swipe-7">
+                            <p>
+                            Вы всегда хотели разобраться в специфике работы программиста, но не знали с чего начать — наш проект для вас! 
+                            Программа обучения начинается с самых азов, поэтому подойдет даже тем, чья сфера деятельности находится далеко от информационных технологий
+                            Если вы уже ранее изучали языки программирования — наш проект и для вас тоже!
+                            Благодаря хорошо систематизированной подаче учебного материала, наши уроки позволят освежить в памяти уже известные вам навыки и лучше усвоить те, с которым ранее у вас возникали трудности
+                            Уже работаете программистом — наш проект подойдет и вам!
+                            Присоединяйтесь к нашему сообществу, здесь вы найдете много новых интересных знакомств, а наши практические задания станут идеальной разминкой для ума
+                            </p>
+                        </div>
+                        <div class="faq-slide-swipe-hr"></div> 
+                    </div>
+                    <!--faq слайдеры конец-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--контент faq конец-->
+
+    <!--контент Материалы-->
+    <div class="content_mat">
+        <div class="container">
+            <div class="content_mat-top">
+                <div class="content_mat-top-title">
+                    <p>Материалы</p>
+                </div>
+                <div class="content_mat-top-links">
+                    <a class="content_mat-top-link-all content_mat-top-link" href="https://t.me/NoobCodersPikabu">
+                        <img src="./img/buttons2/telegram.svg" alt="Telegram">
+                    </a>
+                    <a class="content_mat-top-link-all content_mat-top-link" href="https://www.youtube.com/channel/UCOnwN8Y6H22XoxYk4YT3s4w/featured">
+                        <img src="./img/buttons2/youtube.svg" alt="YouTube">
+                    </a>
+                    <a class="content_mat-top-link-all content_mat-top-link" href="#!">
+                        <img src="./img/buttons2/star.svg" alt="Ололо">
+                    </a>
+                    <a class="content_mat-top-link-all content_mat-top-link" href="#!">
+                        <img src="./img/buttons2/er.svg" alt="Ололо">
+                    </a>
+                </div>
+            </div>
+
+            <div class="content_mat-center">
+                <!--рамки-->
+                <div class="content_mat-center-frame content_mat-center-frame-1">
+                    <div class="center-frame">
+                        <a class="center-frame-button ban_all" href="https://www.youtube.com/watch?v=xk8HVMXLTBc"><p>Хочу начать!</p>
+                            <br>
+                            <img src="./img/arrow.svg">
+                        </a>
+                    </div>
+                    <div class="bottom-frame">
+                        <p>
+                            Основы С#<br>Первый урок. Вводная<br>часть.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content_mat-center-frame content_mat-center-frame-2">
+                    <div class="center-frame">
+                        <a class="center-frame-button ban_all" href="https://www.youtube.com/watch?v=mGn0y-XHqNE"><p>Хочу начать!</p>
+                            <br>
+                            <img src="./img/arrow.svg">
+                        </a>
+                    </div>
+                    <div class="bottom-frame">
+                        <p>
+                            Основы С#<br>Второй урок. Вводная<br>часть.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content_mat-center-frame content_mat-center-frame-3">
+                    <div class="center-frame">
+                        <a class="center-frame-button-b ban_all" href="https://www.youtube.com/watch?v=pYWIfLZ7obY"><p>Асинхронные функции</p>
+                            <br>
+                            <img src="./img/Arrow-white.svg">
+                        </a>
+                    </div>
+                    <div class="bottom-frame">
+                        <p>
+                            Основы С#<br>Шестнадцатый урок. Async-<br>await
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content_mat-center-frame content_mat-center-frame-1">
+                    <div class="center-frame">
+                        <a class="center-frame-button ban_all" href="https://www.youtube.com/watch?v=Ur8SxXDOYX4"><p>Хочу начать!</p>
+                            <br>
+                            <img src="./img/arrow.svg">
+                        </a>
+                    </div>
+                    <div class="bottom-frame">
+                        <p>
+                            Основы С#<br>Третий урок. Переменные,<br>мат. операции
+                        </p>
+                    </div>
+                </div>
+                <!--рамки-->
+            </div>
+        </div>
+
+    </div>
+    <!--контент Материалы конец-->
+
+    <!--контент отзывы-->
+    <div class="content_reviews">
+        <div class="container">
+            <div class="content_reviews-container">
+                <div class="content_reviews-title">
+                    <p>Отзывы наших<br>учеников</p>
+                    <div class="content_reviews-arrows">
+                        <div class="content_reviews-arrows-l">
+                            <img src="./img/arrow-left.svg">
+                        </div>
+                        <div class="content_reviews-arrows-r">
+                            <img src="./img/arrow-right.svg">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="content_reviews-card-container">
+
+                    <div class="content_rev-cont">
+
+                        <div class="content_reviews-card-block">
+                            <div class="content_reviews-card">
+                                <div class="content_reviews-card-photo">
+                                    <img src="./img/kat.jpg">
+                                </div>
+                                <div class="content_reviews-card-name">
+                                    <p>@Jony Silverhend 1</p>
+                                </div>
+                                <div class="content_reviews-card-rev">
+                                    <p>Я прослушал курс. Выполнил все задания с помощью поддержки сообщества в чате и уже получил первый оффер!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content_reviews-card-block">
+                            <div class="content_reviews-card">
+                                <div class="content_reviews-card-photo"></div>
+                                <div class="content_reviews-card-name">
+                                    <p>@Jony Silverhend 2</p>
+                                </div>
+                                <div class="content_reviews-card-rev">
+                                    <p>Я прослушал курс. Выполнил все задания с помощью поддержки сообщества в чате и уже получил первый оффер!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content_reviews-card-block">
+                            <div class="content_reviews-card">
+                                <div class="content_reviews-card-photo"></div>
+                                <div class="content_reviews-card-name">
+                                    <p>@Jony Silverhend 3</p>
+                                </div>
+                                <div class="content_reviews-card-rev">
+                                    <p>Я прослушал курс. Выполнил все задания с помощью поддержки сообщества в чате и уже получил первый оффер!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content_reviews-card-block">
+                            <div class="content_reviews-card">
+                                <div class="content_reviews-card-photo"></div>
+                                <div class="content_reviews-card-name">
+                                    <p>@Jony Silverhend 4</p>
+                                </div>
+                                <div class="content_reviews-card-rev">
+                                    <p>Я прослушал курс. Выполнил все задания с помощью поддержки сообщества в чате и уже получил первый оффер!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>   
+        
+    </div>
+    <!--контент отзывы-->
+
+    <!--контент новости-->
+    
+    <div class="content_news">
+        <div class="container">
+            <div class="content_news-title">Новости</div>
+            <div class="content_news-block-card">
+
+                <!--контент новости карточки-->
+                <div class="content_news-card">
+                    <div class="content_news-card-img">
+                        <img src="./img/duck1.png">
+                    </div>
+                    <div class="content_news-card-text">
+                        <div class="content_news-card-button">
+                            <a class="news_card-button" href="#!">Обновление курса</a>
+                            <a class="news_card-button" href="#!">C#</a>
+                        </div>
+                        <div class="content_news-card-text-title">
+                            <p>Все, что вы хотели знать<br>о синхронизации, но боялись спросить</p>
+                        </div>
+                        <div class="content_news-card-text-title2">
+                            <p>Новый урок уже на канале!<br> В этом видео вы узнаете...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_news-card">
+                    <div class="content_news-card-img">
+                        <img src="./img/duck2.png">
+                    </div>
+                    <div class="content_news-card-text">
+                        <div class="content_news-card-button">
+                            <a class="news_card-button" href="#!">Чат</a>
+                            
+                        </div>
+                        <div class="content_news-card-text-title">
+                            <p>Новые правила чата</p>
+                        </div>
+                        <div class="content_news-card-text-title2">
+                            <p>Для улучшения коммуникации мы обновили правила чата:<br>Теперь...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_news-card">
+                    <div class="content_news-card-img">
+                        <img src="./img/matrix.png">
+                    </div>
+                    <div class="content_news-card-text">
+                        <div class="content_news-card-button">
+                            <a class="news_card-button" href="#!">Развитие проекта</a>
+                           
+                        </div>
+                        <div class="content_news-card-text-title">
+                            <p>Запуск сайта!</p>
+                        </div>
+                        <div class="content_news-card-text-title2">
+                            <p>Проект продолжает развиваться - мы запускаем свой сайт: теперь добираться до материалов и узнавать новости еще проще!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--контент новости карточки-->
+                
+            </div>
+        </div>
+    </div>
+    <!--контент новости конец-->
+
+    <!--контент низ-->
+    <div class="container">
+        <div class="content_support">
+            <div class="content_support-text">
+                <div class="content_support-text-title">
+                    <p>Поддержка<br>проекта</p>
+                </div>
+                <div class="content_support-text-title2">
+                    <p>Наш проект полностью бесплатный, но для развития<br>нужны время и ресурсы, поэтому если у вас есть возможность<br>поддержать нас донатом, мы будем очень рады!</p>
+                </div>
+                <div class="content_support-text-button">
+                    <a class="button-b" href="#!">ЗАДОНАТИТЬ</a>
+                </div>
+            </div>
+            <div class="content_support-img">
+                <div class="content_support-img-circle">
+                    <img src="./img/man-c.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--контент низ конец-->
+
+</content>
+<!--контент конец-->
+
+<!--Подвал-->
+<footer>
+<div class="container">
+    <div class="footer_partner">
+        <div class="footer_partner-text">
+            <p>Наши партнеры:</p>
+        </div>
+        <div class="footer_partner-stick">
+            <a class="footer_partner-stick-1">
+                <img src="./img/Logo-part.png">
+            </a>
+        </div>
+        
+    </div>
+</div>
+<div class="footer_partner-copy">
+    <div class="footer_container">
+        <div class="footer_partner-copy-1">
+            
+        </div>
+        <div class="footer_partner-copy-2">
+            <div class="footer_partner-copy-2-text">
+                <p>design by Dinara Baigeldina 2024</p>
+            </div>
+        </div>
+        <div class="footer_partner-copy-3">
+            <div class="content_mat-top-links">
+                <a class="content_mat-top-link-all content_mat-top-link" href="https://t.me/NoobCodersPikabu">
+                    <img src="./img/buttons2/telegram.svg" alt="Telegram">
+                </a>
+                <a class="content_mat-top-link-all content_mat-top-link" href="https://www.youtube.com/channel/UCOnwN8Y6H22XoxYk4YT3s4w/featured">
+                    <img src="./img/buttons2/youtube.svg" alt="YouTube">
+                </a>
+                <a class="content_mat-top-link-all content_mat-top-link" href="#!">
+                    <img src="./img/buttons2/star.svg" alt="Ололо">
+                </a>
+                <a class="content_mat-top-link-all content_mat-top-link" href="#!">
+                    <img src="./img/buttons2/er.svg" alt="Ололо">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!--Подвал конец-->
+
+<script src="./js/faq-menu.js" type="text/javascript"></script>
+<script src="./js/reviews.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<!--Центр контент конец-->
+</body>
+</html>

@@ -1,0 +1,55 @@
+// Логотип и кнопки
+.header {
+    min-height: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    animation: animation 1.5s forwards;
+}
+
+.logo {
+    width: 176px;
+    height: 165px;
+}
+
+.header_top {
+    padding-top: 52px;
+}
+
+.header_top_r {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 1270px) {
+        width: 100vw;
+    }
+}
+
+.buttons_top {
+    display: flex;
+    column-gap: 30px;
+}
+
+.button_y {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.button_s {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.button_t {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    padding: 0 30px;
+}

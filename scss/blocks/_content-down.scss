@@ -1,0 +1,38 @@
+.content_support {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: $button-yellow;
+    height: 520px;
+    border-radius: 15px;
+    padding: 0 100px 0 100px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+    
+}
+
+.content_support-text-title {
+    font-family: $font-CasPL;
+    color: $text-gray-dark;
+    font-size: 60px;
+
+}
+
+.content_support-text-title2 {
+    font-family: $font-Roboto-r;
+    color: $text-black;
+    margin-top: 50px;
+}
+
+.content_support-text-button {
+    margin-top: 30px;
+}
+
+.content_support-img-circle {
+    display: flex;
+    align-items: center;
+    height: 380px;
+    width: 380px;
+    background-color: $button-orange;
+    border-radius: 190px;
+}

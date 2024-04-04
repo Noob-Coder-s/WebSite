@@ -1,0 +1,156 @@
+/* Подключаем шрифты из папки с сайтом */
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('../fonts/Cascadiacode/CascadiaCode.eot');
+  src: local('Cascadia Code'), local('CascadiaCode'),
+      url('../fonts/Cascadiacode/CascadiaCode.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Cascadiacode/CascadiaCode.woff2') format('woff2'),
+      url('../fonts/Cascadiacode/CascadiaCode.woff') format('woff'),
+      url('../fonts/Cascadiacode/CascadiaCode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cascadia Code Bold';
+	src: url('../fonts/Cascadiacode/cascadia_code_bold.eot'); /* для 9 интернет эксплорера */
+	src: url('../fonts/Cascadiacode/cascadia_code_bold.eot?#iefix') format('embedded-opentype'), /* ниже 9 эксплорера */
+		url('../fonts/Cascadiacode/cascadia_code_bold.woff2') format('woff2'), /* Для всех нвых браузеров */
+		url('../fonts/Cascadiacode/cascadia_code_bold.woff') format('woff'), /* для мазилы 3.6 и выше */
+		url('../fonts/Cascadiacode/cascadia_code_bold.ttf') format('truetype'), /* Яблоки, андроиды, и прочее */
+		url('../fonts/Cascadiacode/cascadia_code_bold.svg#cascadia_code_bold') format('svg'); /* Гугл хром до 4 версии и легаси IOS */
+}
+
+@font-face {
+	font-family: 'Cascadia Code PL Regular';
+	src: url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.eot'); /* для 9 интернет эксплорера */
+	src: url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.eot?#iefix') format('embedded-opentype'), /* ниже 9 эксплорера */
+		url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.woff2') format('woff2'), /* Для всех нвых браузеров */
+		url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.woff') format('woff'), /* для мазилы 3.6 и выше */
+		url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.ttf') format('truetype'), /* Яблоки, андроиды, и прочее */
+		url('../fonts/Cascadiacodepl/cascadia_code_pl_regular.svg#cascadia_code_pl_regular') format('svg'); /* Гугл хром до 4 версии и легаси IOS */
+}
+
+  @font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Light'), local('Gilroy-Light'), 
+          url('../fonts/Gilroy/Gilroylight.woff2') format('woff2'), 
+          url('../fonts/Gilroy/Gilroylight.woff') format('woff'), 
+          url('../fonts/Gilroy/Gilroylight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter Regular';
+	src: url('../fonts/Inter/inter_regular.eot'); /* для 9 интернет эксплорера */
+	src: url('../fonts/Inter/inter_regular.eot?#iefix') format('embedded-opentype'), /* ниже 9 эксплорера */
+		url('../fonts/Inter/inter_regular.woff2') format('woff2'), /* Для всех нвых браузеров */
+		url('../fonts/Inter/inter_regular.woff') format('woff'), /* для мазилы 3.6 и выше */
+		url('../fonts/Inter/inter_regular.ttf') format('truetype'), /* Яблоки, андроиды, и прочее */
+		url('../fonts/Inter/inter_regular.svg#inter_regular') format('svg'); /* Гугл хром до 4 версии и легаси IOS */
+}
+
+@font-face {
+	font-family: 'Roboto Mono Bold';
+	src: url('../fonts/Robotomono/roboto_mono_bold.eot'); /* для 9 интернет эксплорера */
+	src: url('../fonts/Robotomono/roboto_mono_bold.eot?#iefix') format('embedded-opentype'), /* ниже 9 эксплорера */
+		url('../fonts/Robotomono/roboto_mono_bold.woff2') format('woff2'), /* Для всех нвых браузеров */
+		url('../fonts/Robotomono/roboto_mono_bold.woff') format('woff'), /* для мазилы 3.6 и выше */
+		url('../fonts/Robotomono/roboto_mono_bold.ttf') format('truetype'), /* Яблоки, андроиды, и прочее */
+		url('../fonts/Robotomono/roboto_mono_bold.svg#roboto_mono_bold') format('svg'); /* Гугл хром до 4 версии и легаси IOS */
+}
+
+@font-face {
+	font-family: 'Roboto Mono Regular';
+	src: url('../fonts/Robotomono/roboto_mono_regular.eot'); /* для 9 интернет эксплорера */
+	src: url('../fonts/Robotomono/roboto_mono_regular.eot?#iefix') format('embedded-opentype'), /* ниже 9 эксплорера */
+		url('../fonts/Robotomono/roboto_mono_regular.woff2') format('woff2'), /* Для всех нвых браузеров */
+		url('../fonts/Robotomono/roboto_mono_regular.woff') format('woff'), /* для мазилы 3.6 и выше */
+		url('../fonts/Robotomono/roboto_mono_regular.ttf') format('truetype'), /* Яблоки, андроиды, и прочее */
+		url('../fonts/Robotomono/roboto_mono_regular.svg#roboto_mono_regular') format('svg'); /* Гугл хром до 4 версии и легаси IOS */
+}
+
+  /*Общие стили*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: Roboto, bold;
+    background-color: $fone;
+    color: $text-gray;
+    font-size: 16px;
+  }
+
+  /*Базовый контейнер*/
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1210px;
+}  
+
+  /*Синие кнопки*/
+.button-b {
+    font-family: $font-Roboto-r;
+    color: $text-white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 58px;
+    border-radius: 40px;
+    background-color: $button-blue;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 17%);
+    transition: all 0.2s ease-in;
+    &:hover {
+        background-color: $button-blue-s;
+    }
+}
+
+ /*Серые кнопки*/
+ .button-g {
+    font-family: $font-Roboto-r;
+    color: $text-gray-dark;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 58px;
+    border-radius: 40px;
+    background-color: $button-gray;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 17%);
+    &:hover {
+        background-color: $button-gray-dark;
+        color: $text-white;
+    }
+}
+
+/*оранжевые кнопки*/
+.button-o {
+  font-family: $font-Roboto-r;
+  color: $text-gray-dark;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 58px;
+  border-radius: 40px;
+  background-color: $button-orange;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 17%);
+  &:hover {
+      background-color: $button-orange-light;
+
+  }
+}
+
+@keyframes animation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

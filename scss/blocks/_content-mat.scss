@@ -1,0 +1,113 @@
+.content_mat {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    height: 735px;
+    background-color: $fone2;
+}
+
+.content_mat-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_mat-top-title {
+    display: flex;
+    font-family: $font-CasPL;
+    color: $text-gray-dark;
+    font-size: 50px;
+}
+
+.content_mat-top-links {
+    display: flex;
+    column-gap: 35px;
+}
+
+.content_mat-top-link-all {
+    margin: 0 auto;
+    height: 65px;
+    width: 65px;
+    border-radius: 32px;
+    background-color: $button-blue;
+    &:hover {
+        background-color: $button-blue-s;
+    }
+}
+
+.content_mat-top-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_mat-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_mat-center-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 280px;
+    height: 410px;
+    background-color: $fone;
+    border-radius: 15px;
+    padding-bottom: 35px;
+}
+
+.bottom-frame {
+    font-family: $font-Roboto-r;
+    color: $text-gray-dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-frame {
+    display: flex;
+    justify-content: center;
+}
+
+.center-frame-button {
+    background-color: $button-yellow;
+    font-family: $font-Roboto-r;
+    color: $text-gray-dark;
+    margin-top: 122px;
+    transition: all 0.2s ease-in;
+    &:hover {
+        background-color: $button-yellow-dark;
+    }
+}
+
+.center-frame-button-b {
+    background-color: $button-blue;
+    font-family: $font-Roboto-r;
+    color: $text-white;
+    margin-top: 122px;
+    transition: all 0.2s ease-in;
+    &:hover {
+        background-color: $button-blue-s;
+    }
+    
+}
+
+.content_mat-center-frame-1 {
+    background-image: url(../img/duck.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+}
+
+.content_mat-center-frame-2 {
+    background-image: url(../img/hors.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+}
+
+.content_mat-center-frame-3 {
+    background-image: url(../img/thread.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.17);
+}

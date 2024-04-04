@@ -1,0 +1,17 @@
+// Подключаем блоки со стилями (сброс, переменные, базовые)
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+//Блоки
+
+//Шапка сайта
+@import './blocks/header-top';
+@import './blocks/header-center';
+@import './blocks/content-top';
+@import './blocks/content-faq';
+@import './blocks/content-mat';
+@import './blocks/content-reviews';
+@import './blocks/content-news';
+@import './blocks/content-down';
+@import './blocks/footer';

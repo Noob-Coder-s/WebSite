@@ -1,0 +1,54 @@
+.content_top {
+    padding-top: 150px;
+    column-gap: 100px;
+}
+
+.content_top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_top-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content_top-title {
+    font-family: $font-CasPL;
+    color: $text-gray-dark;
+    font-size: 50px;
+}
+
+.content_top-title2 {
+    font-family: $font-Roboto-r;
+    color: $text-gray-dark;
+    padding-top: 50px;
+    width: 580px;
+}
+
+.content_top-circle {
+    display: flex;
+    flex-direction: column;
+    height: 499px;
+    width: 499px;
+    background-color: $button-yellow;
+    border-radius: 249px;
+}
+
+.ban_all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 180px;
+    //column-gap: 100px;
+}
+
+.ban_all, .ban1 {
+    background-color: $button-orange;
+
+}
