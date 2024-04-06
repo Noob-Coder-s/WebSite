@@ -1,0 +1,45 @@
+name: Deploy website
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "WebSite"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: noobcoders-website
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Install SSH Key
+      uses: shimataro/ssh-key-action@v2.7.0
+      with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: unnecessary
+
+    - name: Adding Known Hosts
+      run: ssh-keyscan -p 22 -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      # run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    # To be replaced with rsync
+    - name: Deploy with scp
+      run: |
+        for filename in src/*; do
+            echo "sending ${filename}";
+            scp -r "${filename}" "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite";
+        done
+
+    # Disabled until rsync is installed on target machine
+    # - name: Deploy with rsync
+    #   run: rsync -v   -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite/
+    #   run: rsync -avz -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite/
+
