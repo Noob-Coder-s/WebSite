@@ -38,7 +38,7 @@ jobs:
             scp -r "${filename}" "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite";
         done
 
-    # Disabled until rsync is installed on target machine
+    # Disabled until rsync is not installed on target machine
     # - name: Deploy with rsync
     #   run: rsync -v   -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite/
     #   run: rsync -avz -e "ssh" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/WebSite/
