@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     width: 400px;
-    height: 545px;
+    min-height: 545px;
     overflow-x: hidden;
  /*   -webkit-mask: linear-gradient(
         to right,
@@ -71,7 +71,7 @@
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    height: 525px;
+    min-height: 525px;
     width: 380px;
     background-color: $button-yellow;
     border-radius: 15px;
