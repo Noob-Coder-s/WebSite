@@ -590,6 +590,10 @@ body {
           column-gap: 90px;
 }
 
+.content_faq-title-slide:hover {
+    cursor: pointer;
+}
+
 .content_faq-title {
   font-family: "Cascadia Code PL Regular";
   color: white;
