@@ -590,6 +590,10 @@ body {
           column-gap: 90px;
 }
 
+.content_faq-title-slide:hover {
+    cursor: pointer;
+}
+
 .content_faq-title {
   font-family: "Cascadia Code PL Regular";
   color: white;
@@ -864,7 +868,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 400px;
-  height: 545px;
+  min-height: 545px;
   overflow-x: hidden;
   /*   -webkit-mask: linear-gradient(
          to right,
@@ -899,7 +903,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10px;
-  height: 525px;
+  min-height: 525px;
   width: 380px;
   background-color: #ffe142;
   border-radius: 15px;
