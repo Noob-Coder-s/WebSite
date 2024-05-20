@@ -233,6 +233,7 @@
     }
     .content_news-card-text{
         padding: 17px;
+        overflow: hidden;
     }
     .content_news-card-button{
         margin-top: 12px;
