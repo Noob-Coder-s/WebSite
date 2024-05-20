@@ -290,5 +290,17 @@
         width: 100%;
     }
 }
+@media (min-width: 900px) and (max-width: 1200px){
+    .circle,.content_top-circle {
+        height: 380px;
+        width: 380px;
+        border-radius: 50%;
+    }
 
+    .man1 {
+        height: 400px;
+        margin-top: 65px;
+        margin-left: 45px;
+    }
+}
 @media (min-width: 376px) and (max-width: 768px) {}
