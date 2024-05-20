@@ -225,6 +225,7 @@
     }
     .content_news-block-card{
         padding-top: 34px;
+        justify-content: space-between;
     }
     .content_news-card{
         height: 387px;
