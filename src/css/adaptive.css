@@ -303,4 +303,126 @@
         margin-left: 45px;
     }
 }
-@media (min-width: 376px) and (max-width: 768px) {}
+@media (min-width: 376px) and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .logo{
+        width: 20%;
+        height: 20%;
+    }
+    .button-g{
+        display: none;
+    }
+    .button-b,.button-o{
+        width: 100%;
+    }
+    .header_top_r  .button-b{
+        align-self: center;
+    }
+    .button-o, .header_buttons .button-b{
+        margin-top: 2em;
+    }
+    .buttons_top{
+        column-gap: 0;
+        width: 40%;
+    }
+    .header{
+        min-height: 0;
+    }
+    .header_center_container{
+        justify-content: center;
+    }
+    .header_top{
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .header_text{
+       text-align: center;
+    }
+    .header_title {
+        width: 100%;
+        height: auto;
+        font-size: 4em;
+    }
+    .header_title2{
+        font-size: 2em;
+    }
+    .header_buttons{
+        padding: 0 6em;
+        flex-direction: column;
+    }
+    .circle{
+        display: none;
+    }
+    .content_top{
+        padding-top: 4em;
+    }
+    .content_top-container{
+        flex-direction: column;
+    }
+    .content_top-title{
+        font-size: 2em;
+        text-align: center;
+    }
+    .content_top-title2{
+        font-size: 1em;
+        padding-top: 2em;
+        width: auto;
+        text-align: center;
+    }
+    .content_top-circle{
+        width: 23em;
+        height: 23em;
+        border-radius: 50%;
+        margin-top: 2em;
+    }
+    .ban_all{
+        height: 5em;
+        width: 10em;
+        border-radius: 1em;
+    }
+    .ban1{
+        margin-left: 50%;
+    }
+    .ban2{
+        margin-left: 20%;
+    }
+    .ban3{
+        margin-right: 15%;
+    }
+    .ban4{
+        margin-right: 50%;
+    }
+    .content_faq{
+        padding-top: 2em;
+    }
+    .content_faq-menu{
+        flex-direction: column;
+        border-radius: 1em;
+        padding: 2em;
+        column-gap: 1em;
+    }
+    .content_faq-title{
+        font-size: 3em;
+    }
+    .content_faq-title-slide{
+        width: auto;
+        margin-top: 1em;
+    }
+    .content_mat{
+        display: none;
+    }
+    .content_reviews{
+        display: none;
+    }
+    .content_news{
+        display: none;
+    }
+    .content_support{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
