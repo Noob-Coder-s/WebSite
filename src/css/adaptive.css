@@ -410,19 +410,129 @@
         width: auto;
         margin-top: 1em;
     }
+    #faq-slide-1, #faq-slide-2, #faq-slide-3,
+    #faq-slide-4, #faq-slide-5, #faq-slide-6,
+    #faq-slide-7 {
+        font-size: 1.4em;
+        padding-top: 1em;
+    }
+    #faq-slide-swipe-1, #faq-slide-swipe-2, #faq-slide-swipe-3,
+    #faq-slide-swipe-4, #faq-slide-swipe-5, #faq-slide-swipe-6,
+    #faq-slide-swipe-7 {
+        padding-top: 1.2rem;
+        font-size: 0.8em;
+    }
     .content_mat{
-        display: none;
+        margin-top: 4em;
+        height: auto;
+    }
+    .content_mat-top{
+        flex-direction: column;
+    }
+    .content_mat-top-title{
+        font-size: 3em;
+    }
+    .content_mat-top-links{
+        margin-top: 1em;
+        column-gap: 2em;
+    }
+    .container .content_mat-center{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_mat-center-frame{
+        margin-top: 2em;
+        width: 27em;
+        height: 35em;
+        background-size: 100% auto;
+    }
+    .center-frame-button, .center-frame-button-b{
+        margin-top: 15em;
     }
     .content_reviews{
-        display: none;
+        height: auto;
+    }
+    .content_reviews-container{
+        margin-top: 6em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_reviews-title{
+        font-size: 3em;
+        width: inherit;
+    }
+    .content_reviews-arrows{
+        margin-top: 1em;
+        justify-content: center;
+    }
+    .content_reviews-card-container{
+        width: 30em;
+        height: auto;
+    }
+    .content_reviews-card{
+        width: 90%;
+    }
+    .content_reviews-card-name{
+        font-size: 2em;
+    }
+    .content_reviews-card-rev {
+        max-width: 90%;
+        margin-top: 1em;
+        font-size: 1.1em;
+        text-align: center;
     }
     .content_news{
-        display: none;
+        height: auto;
+    } 
+    .content_news-title{
+        font-size: 3em;
+        padding: 0;
+    }
+    .content_news-block-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_news-card{
+        align-items: center;
+        margin-top: 1em;
     }
     .content_support{
+        margin-top: 4em;
+        text-align: center;
+    }
+    .content_support-text-title{
+        font-size: 3em;
+    }
+    .content_support-img{
         display: none;
     }
-    footer{
+    .footer_container{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer_partner{
+        padding-top: 0;
+        height: auto;
+    }
+    .footer_partner-text{
+        margin-top: 1.5em;
+        font-size: 3em;
+    }
+    .footer_partner-stick{
+        margin-top: 0;
+    }
+    .footer_partner-copy{
+        height: auto;
+    }
+    .footer_partner-copy-2-text{
+        font-size: 1em;
+        margin: 3em auto;
+    }
+    .footer_partner-copy-2{
+        width: auto;
+    }
+    .footer_partner-copy-3 {
         display: none;
     }
+
 }
